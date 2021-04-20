@@ -14,7 +14,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <style>
-
+html{
+    scroll-behavior: smooth;
+}
 /* fonts  */
 @font-face {
     font-family:"Raleway-regular";
@@ -179,7 +181,7 @@ body{
       font-family:"Raleway-semibold";
       padding:0.75rem 0;
 	    overflow: visible;
-	  position: fixed;
+	  /* position: fixed; */
 	  top: 0;
 	  width: 100%;
         
@@ -1151,10 +1153,11 @@ footer.copyright a{
                             <a href="#lol" >Contact us</a>
                         </div>
                     </div>
+                    
                 </nav>
 
                 <header class="hero flex items-center">
-                    <div class="container">
+                    <div class="container items-center" style="justify-content: center;" >
                         <div class="welcome flex items-center">
                             <span>Welcome to</span>
                             <img src="./icons/logo-2.png" alt="" width="15%" height="10%">
@@ -1176,109 +1179,64 @@ footer.copyright a{
 
                 <section class="top-products">
                     <div class="container">
-                        <h1 class="section-heading">Top products</h1>
+                        <h1 class="section-heading">Funds Needed</h1>
                         <div class="slider">
                             <button class="slider-btn prev-btn"><img src="./icons/pre.svg" alt=""></button>
                             <button class="slider-btn next-btn"><img src="./icons/next.svg" alt=""></button>
                             <div class="food-slider">
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="./images/plate-1.png" alt="">
+                                        <img src="./images/needy7.jpg" alt="">
                                     </div>
                                     <hr>
                                     <div>
-                                        <h2 class="text-center">Summer Salad</h2>
-                                        <div class="stars flex justify-center items-center">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                        </div>
+                                        <h2 class="text-center">PETA Organisation</h2>
+                                       
                                         <div class="price text-center">
-                                            $ 1.25
+                                            Rs. 700 needed
                                         </div>
-                                        <div class="flex justify-center">
-                                            <button>
-                                                <img src="./icons/cart-2.svg" alt="">
-                                                <span>Add to cart</span>
-                                            </button>
+                                        
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="./images/needy2.jpg" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Shakuntala Sadan</h2>
+                                    
+                                        <div class="price text-center">
+                                            Rs. 5,000 needed
                                         </div>
                                     </div>
                                 </div>
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="./images/plate-2.png" alt="">
+                                        <img src="./images/needy3.jpg" alt="">
                                     </div>
                                     <hr>
                                     <div>
-                                        <h2 class="text-center">Russian Salad</h2>
-                                        <div class="stars flex justify-center items-center">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                        </div>
+                                        <h2 class="text-center">Shree Shaanta Sadam <br> Old age Home</h2>
+                                      
                                         <div class="price text-center">
-                                            $ 1.25
+                                            Rs. 10,000 needed
                                         </div>
-                                        <div class="flex justify-center">
-                                            <button>
-                                                <img src="./icons/cart-2.svg" alt="">
-                                                <span>Add to cart</span>
-                                            </button>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="./images/plate-3.png" alt="">
+                                        <img src="./images/needy4.jpg" alt="">
                                     </div>
                                     <hr>
                                     <div>
-                                        <h2 class="text-center">Greek Salad</h2>
-                                        <div class="stars flex justify-center items-center">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                        </div>
+                                        <h2 class="text-center">Shanta devi school</h2>
+                                        
                                         <div class="price text-center">
-                                            $ 1.25
+                                            Rs. 2,000 needed
                                         </div>
-                                        <div class="flex justify-center">
-                                            <button>
-                                                <img src="./icons/cart-2.svg" alt="">
-                                                <span>Add to cart</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="food-card magic-shadow-sm">
-                                    <div class="product-image flex items-center justify-center">
-                                        <img src="./images/plate-3.png" alt="">
-                                    </div>
-                                    <hr>
-                                    <div>
-                                        <h2 class="text-center">Cottage pie</h2>
-                                        <div class="stars flex justify-center items-center">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/start-filled.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                            <img src="./icons/star-grey.svg" alt="">
-                                        </div>
-                                        <div class="price text-center">
-                                            $ 1.25
-                                        </div>
-                                        <div class="flex justify-center">
-                                            <button>
-                                                <img src="./icons/cart-2.svg" alt="">
-                                                <span>Add to cart</span>
-                                            </button>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -1413,8 +1371,8 @@ footer.copyright a{
                     <div class="container">
                         <div class="box">
                             <h3>About us</h3>
-                            <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum
-                                passage.</p>
+                            <p>This project aims to computerize the administration of an NGO. The NMS software is designed as there are several aspects to this, including getting the list of students to help in case of limited funds, collecting funds for stray animals, collecting donations in all forms (stationary, clothes, books etcetera) and maintaining a record of all expenditure. There is also a web portal for the registration of new donors and a blog of the NGO. NMS would help increase productivity of the NGO by reducing the time required in the operations of the NGO.
+                                 It will also increase the accuracy of the work done.</p>
                             <button class="btn btn-secondary">Read More</button>
                         </div>
                         <div class="box">
@@ -1424,7 +1382,7 @@ footer.copyright a{
                                     <a href="#lollol">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Donors</a>
+                                    <a href="#">Donoate Now</a>
                                 </li>
                    
                                 <li>
