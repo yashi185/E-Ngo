@@ -8,6 +8,10 @@
     <title>My awesome food store</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <style>
 
@@ -170,7 +174,7 @@ body{
 
 
   header.topbar{
-      background:var(--secondary);
+      background:black;
       color:var(--pure);
       font-family:"Raleway-semibold";
       padding:0.75rem 0;
@@ -178,7 +182,7 @@ body{
 	  position: fixed;
 	  top: 0;
 	  width: 100%;
-	  
+        
   }
   header.topbar .auth > div a{
       color:var(--pure);
@@ -608,7 +612,7 @@ section.big-deal .timer div span:last-child{
 }
 
 section.latest-news{
-    background:var(--light);
+    /* background:var(--light); */
     position:relative;
     z-index:0;
 }
@@ -1311,11 +1315,11 @@ footer.copyright a{
 
                 <section class="latest-news">
                     <div class="container">
-                        <h1 class="section-heading">Our Top Donors</h1>
-                        <div class="article-wrapper">
-                            <article class="card magic-shadow-sm">
+                        <h1 class="section-heading">Lastest News from Blog</h1>
+                        <div class="article-wrapper row">
+                            <article class="card col-sm">
                                 <div>
-                                    <img src="./images/TD1.JPG" alt="" >
+                                    <img src="./images/TD1.JPG" alt="" height="500px" >
                                 </div>
                                 <div class="card-content">
                                     <div class="post-meta flex items-center justify-between">
@@ -1331,9 +1335,9 @@ footer.copyright a{
 									I am grateful to E-NGO organisation for their extremely capable services and the noble cause they are contributing to. </p>
                                 </div>
                             </article>
-                            <article class="card magic-shadow-sm">
+                            <article class="card col-sm">
                                 <div>
-                                    <img src="./images/TD2.jpg" alt="" width="200%" height="200%">
+                                    <img src="./images/TD2.jpg" height="500px" alt="" >
                                 </div>
                                 <div class="card-content">
                                     <div class="post-meta flex items-center justify-between">
@@ -1355,7 +1359,6 @@ footer.copyright a{
                         </div>
                     </div>
                 </section>
-
                 <section class="subscribe">
                     <div class="container flex items-center">
                         <div>
